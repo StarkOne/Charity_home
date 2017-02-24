@@ -52,6 +52,7 @@ header
 	background: url(../img/cityStreet.jpg) no-repeat 
 	min-height: 760px
 	margin-bottom: 90px
+	background-size: cover
 .header__top
 	padding-top: 45px
 	margin-bottom: 160px
@@ -285,6 +286,53 @@ header
 	&:hover
 		color: #150c31
 		box-shadow: 0 0 45px #808080 
-
+.girl
+	background: url(../img/pexels.jpg) no-repeat left
+	background-size: cover
+	height: 480px
+.girl-wrap
+	padding-top: 150px
+.girl__title
+	font-size: em(28px)
+	color: #fff
+	margin-bottom: 0
+.girl__desc
+	font-size: em(14px)
+	line-height: em(22px)
+	color: #fff
+	font-family: "montserratlight", $helvetica 
+.help
+	margin-bottom: 60px
+.icon__wrap
+	width: 76px
+	display: inline-block
+	height: 76px
+	float: left
+	background: url(../img/spr.png) no-repeat center
+	border: 2px solid #ccc
+	margin-right: 20px
+	margin-bottom: 20px
+	border-radius: 50%
+	&.Send
+		background-position: -7px -5px
+	&.Buy
+		 background-position: -8px -92px
+	&.Donate
+		 background-position: -98px -10px
+	&.Become
+		 background-position: -99px -100px
+.help__title
+	font-size: em(18px)
+	color: #150c31
+	font-family: "montserratbold", $helvetica
+.help__desc
+	margin: 0
+	margin-top: 8px
+	color: #807996
+	font-size: em(14px)
+	line-height: em(18px)
+	font-family: "montserratlight", $helvetica 
+.help__item
+	margin-bottom: 50px
 @import "media" // Всегда в конце
 
