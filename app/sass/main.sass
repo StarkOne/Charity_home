@@ -50,7 +50,7 @@ ul
 	list-style: none
 header
 	background: url(../img/cityStreet.jpg) no-repeat 
-	min-height: 760px
+	min-height: 100vh
 	margin-bottom: 90px
 	background-size: cover
 .header__top
@@ -301,6 +301,22 @@ header
 	line-height: em(22px)
 	color: #fff
 	font-family: "montserratlight", $helvetica 
+.man
+ @extend .girl
+ background: url(../img/img.png) no-repeat left
+.man-wrap
+	@extend .girl-wrap
+.man__title
+	@extend .girl__title
+	color: #150c31
+.man__desc
+	@extend .girl__desc
+	color: #000
+	opacity: .9
+	margin-bottom: 38px
+.man__btn
+	background: #150c31
+	padding: 20px 65px
 .help
 	margin-bottom: 60px
 .icon__wrap
@@ -332,7 +348,44 @@ header
 	font-size: em(14px)
 	line-height: em(18px)
 	font-family: "montserratlight", $helvetica 
+.donors
+	margin-bottom: 110px
 .help__item
 	margin-bottom: 50px
+.donors__people
+	text-align: center
+	display: inline-block
+.donors__title
+	margin: 10px 0px
+	color: #150c31
+	font-size: em(18px)
+	font-family: "montserratbold", $helvetica
+.donors__desc
+	margin: 0
+	font-size: em(14px)
+	color: #807996
+	line-height: em(18px)
+	font-family: "montserratlight", $helvetica 
+.donors__wrap
+	text-align: center
+.footer__left
+	float: left
+	color: #fff
+.footer__right
+	float: right
+.footer__item
+	@extend .header__item
+.footer__link
+  @extend .header__link
+  margin: 0px 7px
+  color: #fff
+  &:hover
+  
+.main__footer
+	padding: 35px 0px
+	font-family: "montserratlight", $helvetica 
+	font-size: em(15px)
+  line-height: em(20px)
+	background-color: #202020
 @import "media" // Всегда в конце
 
